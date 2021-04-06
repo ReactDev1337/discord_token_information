@@ -1,0 +1,11 @@
+[package]
+name = "discord_token_information"
+description = "Shows information about a Discord token."
+version = "0.1.0"
+authors = ["ReactDev1337 <82044444+ReactDev1337@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.11.2", features = ["json"] }
+tokio = { version = "1.4.0", features = ["full"] }
+json = "0.12.4"
