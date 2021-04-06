@@ -1,4 +1,5 @@
 # TODO
+- [ ] Add Nitro type
 - [ ] Add billing information 
 
 # Usage
