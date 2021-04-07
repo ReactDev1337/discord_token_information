@@ -20,7 +20,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
         let profile_data = json::parse(&resp.text().await?).unwrap();
 
         println!("User Profile:");
-        println!("E-Mail: {}", profile_data["email"]);
+        println!("E-Mail: {}", &profile_data["email"]);
         println!("ID: {}", &profile_data["id"]);
         println!("Username: {}", &profile_data["username"]);
         println!("Discriminator: {}", &profile_data["discriminator"]);
